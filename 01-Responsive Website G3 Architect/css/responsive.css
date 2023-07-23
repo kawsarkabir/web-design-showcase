@@ -1,0 +1,159 @@
+/* banner section responsive style for mobile */
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+        gap: 20px;
+        margin-left: 20px;
+    }
+    .nav-title{
+        display: none;
+    }
+    .banner-text{
+        width: 100%;
+    }
+    .banner-title{
+        font-size: 1.5rem;
+     }
+     .banner-disc{
+        line-height: 28px;
+     }
+}
+/* midium device style banner section  */
+@media screen and (min-width:576px) and (max-width:960px) {
+    header{
+        padding: 50px;
+    }
+    .banner-title{
+        font-size: 2.2rem;
+     }
+     .banner-disc{
+        line-height: 28px;
+     }
+}
+/* feature section monile responsive style here */
+@media screen and (max-width:576px) {
+    .feature-section{
+        text-align: center;
+    }
+    .feature-wrapper{
+        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+    .feature-inner img{
+        margin: 10px;
+    }
+    .feature-content{
+        width: 100%;
+    }
+    .feature-title{
+        margin-bottom: 10px;
+        font-size: 2rem;
+    }
+}
+/* midium device for style here feature section  */
+@media screen and (min-width:577px) and (max-width:960px) {
+    .feature-wrapper{
+        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .feature-section{
+        text-align: center;
+    }
+    .feature-content{
+        /* width: 100%; */
+        margin: 0 auto;
+    }
+    .feature-title{
+        font-size: 2rem;
+    }
+}
+/* feature list section responsive for mibile device  */
+@media screen and (max-width:576px) {
+    .feature-list-section-wrapper{
+        grid-template-columns: 1fr;
+    }
+    .left-content-title h1{
+        font-size: 2rem;
+    }
+    .right-content-img{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .img-child{
+        width: 50%;
+        padding: 38px 30px;
+        bottom: 65px;
+        right: 45px;
+        margin-left: 20px;
+        font-size: 1.2em;
+    }
+}
+/* medium device feature-list section  */
+@media screen and (min-width:577px) and (max-width:960px) {
+    .feature-list-section-wrapper{
+        grid-template-columns: 1fr;
+    }
+    .feature-list-section{
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+    .left-content-title h1{
+        width: 55%;
+        margin: 10px auto;
+        text-align: center;
+        font-size: 3rem;
+    }
+    .left-content-disc{
+     width: 90%;
+     margin: 0 auto;
+     text-align: center;
+    }
+    .card-container{
+        display: grid;
+        grid-template-columns:repeat(2, 1fr) ;
+        gap: 30px;
+    }
+    .right-content-img{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .left-content h1::before{
+        border-left: none;
+    }
+}
+/* fact section responsive for mobile  */
+@media screen and (max-width:576px){
+    .fact-title{
+        width: 100%;
+        margin-left: 10px;
+    }
+    .fact-wrapper{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+         left: 0;
+
+    }
+}
+/* medium device responsive for fact saction here */
+@media screen and (min-width:577px) and (max-width:960px) {
+    .fact-wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        left: 0;
+        margin-left: 100px;
+    }
+    .fact-title{
+        width: 90%;
+        margin-left: 35px;
+        text-align: center;
+    }
+}
