@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* header section here */
+header{
+    background-color:#d554702b;
+}
+.banner-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 650px;
+}
+.header-content{
+    width: 50%;
+}
+.header-content h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.header-content p{
+    color: #313131a9;
+    font-size: 15px;
+    line-height: 23px;   
+
+}
+.btn{
+    text-decoration: none;
+    color: #fff;
+    background-color: #E55473;
+    padding: 12px 23px;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    transition: .5s;
+}
+.header-img{
+    width: 40%;
+}
+.header-img img{
+    margin-top: 80px;
+}
+img{
+    max-width: 100%;
+}
+/* header secition done */
+/* featured flower section start here */
+.title{
+    text-align: center;
+     margin: 90px auto;
+     width: 50%;
+}
+.title h1{
+    font-size:25px;
+    font-weight: 600;
+    color: #363636;
+}
+.title p{
+    color: #313131a9;
+    line-height: 22px;
+    margin-top: 9px;
+    font-size: 15px;
+}
+.featured-flower-section{
+    padding: 50px 0 ;
+    display: flex;
+    margin-top: -90px;
+    justify-content: space-between;
+}
+.flower-items{
+    background-color: #a7216242;
+    width: 28%;
+    border-radius: 400px 400px 0px 0px;
+}
+.flower-items img{
+    padding: 50px;
+    position: relative;
+    top: 72px;
+}
+.flower-items a{
+    margin-top: 10px;
+    display: inline-block;
+}
+.item-1 img{
+    margin-top: 27px;
+}
+.item-2{
+    background-color: #0598a036;
+}
+
+.item-3{
+    background-color: #477d1146;
+    /* bottom: 24px; */
+    /* position: relative; */
+}
+.flower-items p{
+    text-align: center;
+    position: relative;
+    top: 58px;
+    text-decoration: underline;
+    font-weight: 500;
+}
+.item-2 p{
+    position: relative;
+    top: 170px;
+}
+/* our freatured fower section done */
+
+/* service section start here */
+.service-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dcdcdc6e;
+    text-align: center;
+    padding: 100px;
+    border-radius: 5px;
+    margin: 100px 0px;
+}
+.service-section p{
+    font-size: 15px;
+    color: #313131a9;
+    margin-top: 10px;
+}
+/* service section done here*/
+/* hot deal section start here */
+.hot-deal{
+    background-color:#d554702b;
+    text-align: center;
+    padding: 100px;
+    margin-bottom:50px ;
+}
+.hot-deal-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.hot-deal-content{
+    width: 50%;
+}
+.hot-deal-content h1{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.hot-deal-content p{
+    line-height: 23px;
+    font-size: 15px;
+    color: #313131a9;
+}
+.hot-deal-img{
+    width: 23%;
+}
+.offer{
+    color: #E55473;
+}
+/* hot deal section end here */
+/* instagram section start here */
+.instagram-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: -50px;
+}
+.instagram-wrapper img{
+    width: 24%;
+}
+/* instagram section end here */
+/* happy delivery section start here */
+.happy-delivery-wrapper{
+    background-color: #d554702b;
+    padding: 100px;
+    text-align: center;
+}
+.happy-delivery-wrapper small{
+    color: #363636;
+}
+ .happy-delivery-items{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+ .happy-delivery-item{
+    background-color: #fff;
+    width: 24%;
+    border-radius: 50px 0px 50px 0;
+    padding: 80px 20px;
+    margin-top: 50px;
+ }
+ .happy-delivery-item h2{
+    font-size: 23px;
+ }
+ .happy-delivery-item p{
+    line-height: 22px;
+    font-size: 15px;
+    color: #313131;
+ }
+ .ultra-radious{
+    border-radius: 0px 50px 0px 50px;
+ }
+ .btn:hover{
+    color: #E55473;
+    background-color: #000;
+    font-weight: 600;
+ }
+ .extra-btn{
+    margin-top: 30px;
+ }
+/* happy delivery section end here */
+/* news letter section start here */
+.newsletter-section{
+    background-image: url("./Flower Asset/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 100px;
+    margin: 100px 0;
+    text-align: center;
+}
+.newsletter-section h1{
+    font-size: 35px;
+}
+.newsletter-section small{
+    color: #313131;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.newsletter-section input{
+    padding: 13px 10px;
+    width: 50%;
+    border: none;
+    border-radius: 4px;
+}
+/* news letter section done */
+/* footer section start here */
+footer{
+    background-color: #000;
+    padding: 100px;
+    text-align: center;
+    color: #ddd;
+}
+footer p{
+    font-size: 15px;
+    line-height: 22px;
+}
+footer small{
+    color: #6e6e6e;
+}
