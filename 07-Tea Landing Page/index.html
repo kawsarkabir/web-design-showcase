@@ -40,10 +40,10 @@
     </script>
   </head>
   <body class="font-manrope">
-    <header class="container mx-auto px-4 my-24">
+    <header class="container mx-auto my-24">
       <div class="hero">
-        <div class="hero-content flex-col lg:flex-row gap-12">
-          <div>
+        <div class="hero-content flex-col lg:flex-row gap-24">
+          <div class="lg:mr-48">
             <h1 class="text-7xl font-bold">
               It's good <br />
               tea time at The <br />
@@ -53,7 +53,7 @@
               Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
               Your Taste Buds.
             </p>
-            <button class="btn btn-primary">Explore More</button>
+            <button class="btn bg-gradient-to-r from-[#FF8938] to-[#F00] text-white">Explore More <i class="fa-solid fa-arrow-right"></i></button>
           </div>
           <div>
             <img src="/images/banner.png" class="max-w-sm rounded-lg" />
@@ -72,7 +72,7 @@
     </header>
     <main class="container mx-auto px-4 my-24">
       <!-- feature section start -->
-      <section>
+      <section class="my-24">
         <div class="w-9/12 mx-auto text-center">
           <h1 class="text-3xl font-semibold mb-3">Our Featured Products</h1>
           <p>
@@ -175,7 +175,7 @@
             humour, or randomised words which don't look even slightly
             believable.
           </p>
-          <button class="btn btn-primary">Show All</button>
+          <button class="btn bg-white text-red-600">Show All</button>
         </div>
         <div class="relative">
           <!-- client info card -->
@@ -279,6 +279,59 @@
       </section>
       <!-- news sectioni end here -->
     </main>
-    <footer></footer>
+    <!-- footer section start -->
+    <footer class="bg-base-200 p-20 text-base-content">
+        <div>
+            <div class="footer items-center p-4 my-14">
+                <div class="items-center grid-flow-col">
+                   <img src="./images/cup.png" alt="">
+                </div> 
+                <div class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+                   <div class="flex items-center gap-10">
+                    <h2 class="text-lg text-gray-700">Ready to get strated?</h2>
+                   <button class="btn bg-gradient-to-r from-[#FF8938] to-[#F00] text-white">Get Started</button>
+                   </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer container mx-auto px-4 justify-between">
+            <div>
+              <span class="footer-title">Services</span> 
+              <a class="link link-hover">Branding</a> 
+              <a class="link link-hover">Design</a> 
+              <a class="link link-hover">Marketing</a> 
+              <a class="link link-hover">Advertisement</a>
+            </div> 
+            <div>
+              <span class="footer-title">Company</span> 
+              <a class="link link-hover">About us</a> 
+              <a class="link link-hover">Contact</a> 
+              <a class="link link-hover">Jobs</a> 
+              <a class="link link-hover">Press kit</a>
+            </div> 
+            <div>
+              <span class="footer-title">Legal</span> 
+              <a class="link link-hover">Terms of use</a> 
+              <a class="link link-hover">Privacy policy</a> 
+              <a class="link link-hover">Cookie policy</a>
+            </div> 
+            <div>
+              <span class="footer-title">Newsletter</span> 
+              <div class="form-control w-80">
+                <label class="label">
+                  <span class="label-text">Enter your email address</span>
+                </label> 
+                <div class="relative">
+                  <input type="text" placeholder="Email Address" class="outline-none py-3 border-b border-black w-full bg-transparent" /> 
+                  <button class=" lg:-mr-10 btn absolute top-0 right-0 rounded-full bg-gradient-to-r from-[#FF8938] to-[#F00] text-white"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="mt-8 text-center">
+            <p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
+          </div>        
+    </footer>
+    <!-- footer section end -->
   </body>
 </html>
