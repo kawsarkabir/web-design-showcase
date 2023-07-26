@@ -1,43 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tea Landing Page</title>
     <!-- tailwind and daisy ui cdn link -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- google font link -->
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;700;800&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
     <style>
-        .font-manrope{
-            font-family: 'Manrope', sans-serif;
-        }
+      .font-manrope {
+        font-family: "Manrope", sans-serif;
+      }
     </style>
     <!-- tailwind custom css -->
     <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
-            }
-          }
-        }
-      </script>
-</head>
-<body class="font-manrope">
-    <header>
-        
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="font-manrope">
+    <header class="container mx-auto px-4 my-24">
+      <div class="hero">
+        <div class="hero-content flex-col lg:flex-row gap-12">
+          <div>
+            <h1 class="text-7xl font-bold">
+              It's good <br />
+              tea time at The <br />
+              Tea House
+            </h1>
+            <p class="py-6">
+              Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
+              Your Taste Buds.
+            </p>
+            <button class="btn btn-primary">Explore More</button>
+          </div>
+          <div>
+            <img src="/images/banner.png" class="max-w-sm rounded-lg" />
+            <div
+              class="flex items-center gap-4 drop-shadow-lg bg-white p-4 w-60 -mt-16"
+            >
+              <i class="fa-solid fa-star text-4xl text-amber-300"></i>
+              <div>
+                <h3 class="font-bold text-2xl">5.00</h3>
+                <p>Trust Pilot Ratings</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
-    <main>
-
+    <main class="container mx-auto px-4 my-24">
+      <!-- feature section start -->
+      <section>
+        <div class="w-9/12 mx-auto text-center">
+          <h1 class="text-3xl font-semibold mb-3">Our Featured Products</h1>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable.
+          </p>
+        </div>
+        <div class="grid lg:grid-cols-4 grid-cols-1 gap-10 mt-10 text-center">
+          <div class="card  lg:w-80 bg-gray-100 p-2">
+            <figure><img src="/images/tea-1.png" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title justify-center">Milk Tea</h2>
+              <p>Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+          <div class="card  lg:w-80 bg-gray-100 p-2">
+            <figure><img src="/images/tea-2.png" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title justify-center">Black Tea</h2>
+              <p>Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+          <div class="card  lg:w-80 bg-gray-100 p-2">
+            <figure><img src="/images/tea-3.png" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title justify-center">Lemon Tea</h2>
+              <p>Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+          <div class="card lg:w-80 bg-gray-100 p-2">
+            <figure><img src="/images/tea-4.png" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title justify-center">Green Tea</h2>
+              <p>Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- feature section end -->
     </main>
-    <footer>
-
-    </footer>
-
-    
-</body>
+    <footer></footer>
+  </body>
 </html>
