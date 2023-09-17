@@ -1,0 +1,428 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Work Sans;
+}
+/* header section start here */
+/* nav section start here */
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.logo {
+  display: flex;
+}
+.logo h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.logo span {
+  color: #ff42a5;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.header-section {
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  color: #3c354f;
+  text-align: center;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.menu li {
+  margin-left: 15px;
+}
+.nav-icon {
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 15px 20px;
+  margin-left: 20px;
+}
+.nav-icon .fa-youtube {
+  color: #f61c0d;
+}
+/* banner section start here */
+.banner-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-inner-content h2 {
+  color: #0b0223;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.banner-inner-content h1 {
+  text-align: center;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+  background-image: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.banner-list-items li {
+  list-style: none;
+  color: #534c64;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+  text-transform: lowercase;
+}
+.banner-list-items .fa-circle-play {
+  color: #f948b2;
+}
+.banner-list-items .fa-download {
+  color: #f948b2;
+}
+.banner-inner-img {
+  width: 40%;
+}
+.banner-inner-img img {
+  max-width: 100%;
+}
+.singup-btn {
+  border-radius: 48px;
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  padding: 15px 30px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.rogue-btn {
+  background: #4ec5f7;
+  border-radius: 48px;
+  padding: 15px 30px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+/* banenr seciton end here */
+/* gammer section start here */
+.gamer-seciton {
+  background-image: url('../images/Group 14.png') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+}
+.gamer-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 30px;
+  text-align: right;
+}
+.gammer-inner-img img {
+  max-width: 100%;
+}
+.grammer-inner-content {
+  padding: 20px;
+}
+.grammer-inner-content h1 {
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.grammer-inner-content p {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.grammer-inner-content blockquote {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+/* gammer section end */
+/* online game section start here */
+.online-game-section {
+  margin: 50px 0;
+  padding: 0 20px;
+}
+.online-inner-title {
+  text-align: center;
+}
+.online-inner-title h1 {
+  font-size: 35px;
+}
+.online-inner-title span {
+  text-align: right;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.online-inner-title p {
+  font-size: 15px;
+  margin-top: 10px;
+}
+.online-game-section {
+  margin-top: 50px;
+}
+.online-inner-card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-top: 50px;
+}
+.online-card-item{
+  position: relative;
+}
+.overlay{
+  width: 100%;
+  height: 87%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.616);
+  opacity: 0;
+  transition: .5s;
+  display: flex;
+  border-radius: 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #f948b2;
+  font-size: 2.5rem;
+  font-weight: 500;
+  border: 4px solid #fff;
+}
+.overlay i{
+  color: #fff;
+}
+.overlay:hover{
+  opacity: 1;
+  border: 4px solid #f948b2;
+}
+.online-inner-item img {
+  max-width: 100%;
+   
+}
+.online-card-item p {
+  font-size: 15px;
+  margin-top: 20px;
+}
+/* oline game section end here */
+/* play instantly section start here */
+ 
+.play-instantly-inner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* justify-content: space-around; */
+  align-items: center;
+  gap: 50px;
+  padding: 20px;
+}
+.play-instantly-content {
+  width: 61%;
+}
+.play-instantly-content h1 {
+  font-size: 3.5rem;
+}
+.play-instantly-content span {
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.play-instantly-content p {
+  color: #534c64;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.play-instantly-img img {
+  margin-left: 30px;
+  width: 80%;
+}
+.play-instantly-img-badge {
+  width: 350px;
+  margin-left: 80px;
+}
+.play-instantly-img-badge img {
+  max-width: 100%;
+  position: relative;
+  bottom: 190px;
+  right: 220px;
+  border-radius: 8px;
+}
+/* career section start */
+.careers-section{
+  background-color: #f948b2;
+  color: #fff;
+}
+.careers-wrapper{
+  display: flex;
+  align-items: center;
+  margin-top: -80px;
+}
+.careers-inner-content h1{
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+.careers-inner-img{
+  width:  100vw;
+}
+.careers-inner-img img{
+  width: 112%;
+}
+.career-list-item{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.career-list-item a{
+  text-decoration: none;
+  padding: 18px 33px;
+  text-transform: uppercase;
+  background-color: #fff;
+  border-radius: 30px;
+  color: #f948b2;
+  font-size: 13px;
+  font-weight: 500;
+  width: 45%;
+  display: inline-block;
+}
+.career-list-left{
+  margin-top: 50px;
+  list-style: none;
+}
+.career-list-left li{
+  margin:8px 0;
+}
+.career-list-right{
+  margin-top: 50px;
+  list-style: none;
+}
+.career-list-right li{
+  margin:8px 0;
+}
+/* career section end */
+
+/* game list section here */
+.game-list-section {
+  position: relative;
+  bottom: 80px;
+}
+.game-list-item {
+  display: flex;
+  margin-left: 8px;
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 50px;
+}
+.game-list-item:hover {
+  border: 1px solid #f948b2;
+  border-radius: 50px;
+  color: #f948b2;
+}
+.game-list-item p {
+  margin-left: 20px;
+}
+.game-list-wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 10px;
+  justify-items: center;
+  margin-top: 200px;
+}
+.game-list-left {
+  position: relative;
+  left: 180px;
+  top: 50px;
+}
+/* footer section start */
+.footer-section {
+  background-color: #0b0223;
+  padding: 100px 0;
+  text-align: center;
+  margin-top: -90px;
+}
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-wrapper h1 {
+  color: #fff;
+}
+.footer-wrapper ul {
+  color: #fff;
+  margin-left: 20px;
+  list-style: none;
+  margin: 20px 0;
+}
+.footer-ul{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+.social-icon{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+.term-condition{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.social-icon li{
+  font-size: 30px;
+}
+.footer-wrapper ul li{
+  margin-left: 30px;
+}
+.social-icos i{
+  font-size: 30px;
+}
+.footer-wrapper p{
+  color: #fff;
+  margin-top: 20px;
+}

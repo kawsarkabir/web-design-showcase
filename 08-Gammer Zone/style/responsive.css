@@ -1,0 +1,291 @@
+/* header section responsive for mobile device */
+@media screen and (max-width: 576px) {
+  .logo {
+    margin-bottom: 20px;
+  }
+  .menu {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .menu li {
+    margin: 20px 0;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+  .nav-icon ul {
+    display: flex;
+    flex-direction: row;
+  }
+  .nav-icon ul li {
+    margin: 0 8px;
+  }
+  .banner-wrapper {
+    flex-direction: column-reverse;
+    padding: 20px;
+  }
+  .banner-inner-img {
+    width: 100%;
+  }
+  .banner-inner-content {
+    margin-top: 50px;
+  }
+}
+/* headear section responsive style for tablet */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  nav ul {
+    flex-direction: column;
+  }
+  .nav-icon ul {
+    display: flex;
+    flex-direction: row;
+  }
+  .menu {
+    margin-top: 20px;
+  }
+  .banner-wrapper {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .banner-inner-content {
+    width: 100%;
+    text-align: center;
+  }
+  .banner-inner-content h2 {
+    font-size: 70px;
+  }
+  .banner-inner-img {
+    margin-top: 50px;
+    width: 100%;
+  }
+}
+/* banner section end  */
+/* gamer section responsive style for mobile device */
+@media screen and (max-width: 576px) {
+  .gamer-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .grammer-inner-content h1 {
+    text-align: center;
+  }
+  .grammer-inner-content a {
+    margin-top: 50px;
+  }
+  .banner-inner-img {
+    width: 100%;
+  }
+}
+/* medium device for gamer section style here */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  .gamer-seciton {
+    margin-top: 50px;
+  }
+  .gamer-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .grammer-inner-content h1 {
+    text-align: center;
+  }
+  .grammer-inner-content a {
+    margin-top: 50px;
+  }
+}
+
+/* online gamer section responsive style here mobile device*/
+@media screen and (max-width: 576px) {
+  .online-inner-card {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 50px;
+  }
+  .online-card-item img {
+    width: 100%;
+  }
+  .height-overly-2 {
+    height: 88%;
+  }
+  .height-overlay {
+    height: 92%;
+  }
+}
+
+/* medium device online gamer section responsove here */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  .online-inner-card {
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    gap: 50px;
+  }
+}
+
+/* play instantly section mobile responsive device */
+@media screen and (max-width: 576px) {
+  .play-instantly-inner {
+    grid-template-columns: 1fr;
+    gap: 100px;
+  }
+  .play-instantly-img {
+    width: 90%;
+  }
+  .play-instantly-img img {
+    width: 100%;
+  }
+  .play-instantly-img-badge {
+    width: 200px;
+    margin-left: 150px;
+  }
+  .play-instantly-img-badge img {
+    max-width: 100%;
+    position: relative;
+    bottom: 135px;
+    right: 180px;
+    border-radius: 8px;
+  }
+  .play-instantly-content {
+    width: 100%;
+    text-align: center;
+  }
+  .play-instantly-content h1 {
+    font-size: 3rem;
+  }
+}
+/* mediun device responsive play instantly here */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  .play-instantly-inner {
+    grid-template-columns: 1fr;
+    gap: 100px;
+  }
+  .play-instantly-img {
+    width: 90%;
+  }
+  .play-instantly-img img {
+    width: 100%;
+  }
+  .play-instantly-img-badge {
+    width: 200px;
+    margin-left: 150px;
+  }
+  .play-instantly-img-badge img {
+    max-width: 100%;
+    position: relative;
+    bottom: 135px;
+    right: 180px;
+    border-radius: 8px;
+  }
+  .play-instantly-content {
+    width: 100%;
+    text-align: center;
+  }
+  .play-instantly-content h1 {
+    font-size: 4rem;
+  }
+}
+/* career section mobile device resonsive style here */
+@media screen and (max-width: 576px) {
+  .careers-section {
+    padding: 50px;
+  }
+  .careers-wrapper {
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .career-list-item {
+    gap: 25px;
+  }
+  .career-list-item a {
+    width: 123%;
+  }
+  .careers-inner-img {
+    width: 100vw;
+  }
+  .careers-inner-img img {
+    width: 100%;
+    margin-top: 50px;
+  }
+}
+/* tablet device style here */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  .careers-section {
+    padding: 50px;
+  }
+  .careers-wrapper {
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .careers-inner-img img {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .careers-inner-img {
+    width: 100%;
+  }
+  .career-list-item a {
+    width: 57%;
+  }
+}
+
+/* game list mobile device responsive style here */
+@media screen and (max-width: 576px) {
+  .game-list-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-bottom: 60px;
+    align-items: center;
+  }
+  .game-list-left {
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  .game-list-item p {
+    margin-left: 15px;
+    font-size: 15px;
+  }
+  .game-list-item img {
+    width: 50px;
+  }
+}
+
+/* table responsive style here game list section */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  .game-list-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin-bottom: 60px;
+  }
+  .game-list-left {
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+}
+/* footer section responsive style for mobile device */
+@media screen and (max-width: 576px) {
+  .footer-ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+  }
+  .footer-wrapper ul {
+    margin-left: -23px;
+  }
+  .footer-wrapper .social-icon {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .term-condition {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
