@@ -2,18 +2,14 @@
 
 Welcome to the Web Design Showcase repository! This collection features a variety of web design projects aimed at beginners, providing practical examples and hands-on experience in creating visually appealing and functional web pages.
 
-## Projects
-
-Explore different web design projects in this repository to enhance your skills. Each project is designed to cover specific aspects of web development and design.
-
-## Getting Started
-
-Follow these steps to clone the repository and start working on the projects:
-
 ### Prerequisites
 
 - Web browser (for viewing and testing)
 - Text editor (e.g., Visual Studio Code, Sublime Text) for editing code
+
+## Getting Started
+
+Follow these steps to clone the repository and start working on the projects:
 
 ### Cloning the Repository
 
@@ -33,17 +29,6 @@ Follow these steps to clone the repository and start working on the projects:
 
 If you're interested in contributing to this collection or have ideas for new projects, please follow the [contribution guidelines](CONTRIBUTING.md).
 
-## Showcase
-
-Check out live previews of the projects on [GitHub Pages](https://kawsarkabir.github.io/web-design-showcase/).
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Special thanks to [contributors](CONTRIBUTORS.md) for their valuable contributions.
-- Inspired by the enthusiasm of beginners in the web design community.
-
- 
